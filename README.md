@@ -24,3 +24,7 @@ https://github.com/JiangWeibeta/Checkerboard-Context-Model-for-Efficient-Learned
 https://github.com/InterDigitalInc/CompressAI
 
 https://github.com/huzi96/Coarse2Fine-PyTorch
+
+Paper: https://arxiv.org/abs/2103.15306
+
+See [my blog](https://blog.csdn.net/leelitian3/article/details/123477382) for more details.
