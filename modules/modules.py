@@ -41,7 +41,8 @@ class Depth2Space(nn.Module):
 
 def Demultiplexer(x):
     """
-    See Supplementary Material: Figure 2
+    See Supplementary Material: Figure 2.
+    This operation can also implemented by slicing.
     """
     x_prime = Space2Depth(r=2)(x)
     
@@ -56,7 +57,8 @@ def Demultiplexer(x):
 
 def Multiplexer(anchor, non_anchor):
     """
-    The inverse opperation of Demultiplexer
+    The inverse opperation of Demultiplexer.
+    This operation can also implemented by slicing.
     """
     _, C, _, _ = non_anchor.shape
     x_prime = torch.cat((non_anchor[:, : C//2, :, :], anchor, non_anchor[:, C//2:, :, :]), dim=1)
