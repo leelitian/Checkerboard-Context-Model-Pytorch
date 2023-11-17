@@ -11,7 +11,9 @@ python 3.7
 compressai 1.2.0
 
 ## demo
-Due to the limitation of file size in github, you should download checkpoint from [Google dirve](https://drive.google.com/file/d/1E9bKGTGxHcR5F35WSB1vMcyt664MvCRm/), and then put it into the project fold.
+Due to the limitation of file size in github, you should download checkpoint from Google drive, and then put it into the project fold.
+
+update: Sorry, the checkpoint is lost for some mistakes, please retrain the model using compressai.
 
 ```bash
 pip install compressai
